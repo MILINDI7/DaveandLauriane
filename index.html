@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Survey Form</title>
+            <link rel="stylesheet" href="">
+        </head>
+        <body>
+
+            <h1 id="title">SURVEY FORM</h1>
+            <p id=description>This is a survey form</p>
+            <form id="survey-form">
+               <label for="name" id="name-label">Name:</label>
+              <input type="text" id="name" name="name" placeholder="name" required><br><br>
+              <label for="email" id="email-label">Email:</label>
+              <input type="email" id="email" name="email" placeholder="email" required><br><br>
+              <label for="number" id="number-label">Number:</label>
+              <input type="number" id="number" name="number" min="4" max="8" required placeholder="number"><br><br>
+              <label for="gender">Gender:</label>
+              <input id="gender"type="radio" name="attribute" value="male">Male
+                    
+                     <input id="gender" type="radio" name="attribute" value="female">Female <br><br>
+              <label for="dropdown">Choose Option: </label>
+              <select id="dropdown" name = "dropdown">
+                        <option value = "Option 1" selected>Option 1</option>
+                        <option value="Option2">Option 2</option>
+              </select> <br><br>
+            <label id="checkbox">You are registered for: </label><br>
+              <input type="checkbox" id="online" name="online" value="online">
+              <label for="online"> Online Class</label><br>
+              <input type="checkbox" id="physical" name="physical" value="physical">
+              <label for="physical"> Physical Class</label><br>
+            
+              <label for="comments">Comments:</label>
+            
+            <textarea id="comments" name="w3review" rows="4" cols="50" placeholder="write your comments here"></textarea><br><br>
+            
+             <input id="submit" type="submit" value="Submit">
+            
+            </form>  
+
+
+
+
+        </body>
+
+
+
+
+
+
+
+
+
+    </html>
